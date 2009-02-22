@@ -20,7 +20,7 @@ my $dbh    = DBI->connect($dsn, 'brenda', '') or unlock_die ("Cannot connect to 
 readInputFiles();
 
 my $username='metalbot';
-my $password = 'brillig'; 
+my $password = 'secret'; 
 
 my $twit = Net::Twitter->new(  username => $username, password => $password);
 
